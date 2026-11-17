@@ -1,0 +1,89 @@
+{
+  "calendario_vacinacao_infantil_sus": [
+    {
+      "vacina": "BCG",
+      "idade": "Ekuzalweni (idosi enye)",
+      "para_que_serve": "Ikhusela kwiintlobo eziyingozi zesifo sephepha (i-tuberculosis)."
+    },
+    {
+      "vacina": "I-Hepatitis B",
+      "idade": "Ekuzalweni (idosi yokuzalwa)",
+      "para_que_serve": "Ikhusela kwisifo sesibindi i-hepatitis B."
+    },
+    {
+      "vacina": "I-Penta (DTP + Hib + Hepatitis B)",
+      "idade": "Iinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2) e iinyanga ezi-6 (idosi yesi-3)",
+      "para_que_serve": "Ikhusela kwi-diphtheria, i-tetanus, i-pertussis (ukhohlokhohlo), i-hepatitis B kunye nosulelo olubi olubangelwa yi-Haemophilus influenzae type b."
+    },
+    {
+      "vacina": "I-VIP (Isitofu Sepoliyo Esingasebenziyo)",
+      "idade": "Iinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2), iinyanga ezi-6 (idosi yesi-3) e iinyanga ezili-15 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwipoliyo (ukukhubazeka kwabantwana)."
+    },
+    {
+      "vacina": "I-Pneumococcal 10-valent (VPC10)",
+      "idade": "Iinyanga ezi-2 (idosi yoku-1), iinyanga ezi-4 (idosi yesi-2) e iinyanga ezili-12 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwizifo ezibangelwa yi-pneumococcus, ezifana nenyumoniya, imeningitis kunye nosulelo lwendlebe."
+    },
+    {
+      "vacina": "I-Rotavirus Yoluntu (VRH)",
+      "idade": "Iinyanga ezi-2 (idosi yoku-1) e iinyanga ezi-4 (idosi yesi-2)",
+      "para_que_serve": "Ikhusela kurhudo olubi nokuphelelwa ngamanzi emzimbeni okubangelwa yi-rotavirus."
+    },
+    {
+      "vacina": "I-Meningococcal C",
+      "idade": "Iinyanga ezi-3 (idosi yoku-1), iinyanga ezi-5 (idosi yesi-2) e iinyanga ezili-12 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwizifo ezibangelwa yibhaktiriya i-Neisseria meningitidis yodidi C (imeningitis)."
+    },
+    {
+      "vacina": "I-Covid-19",
+      "idade": "Iinyanga ezi-6 (idosi yoku-1), iinyanga ezi-7 (idosi yesi-2) e iinyanga ezi-9 (idosi yesi-3, ngokomenzi)",
+      "para_que_serve": "Ikhusela kwiintlobo eziyingozi, ukulaliswa esibhedlele nokufa okubangelwa yintsholongwane i-SARS-CoV-2."
+    },
+    {
+      "vacina": "I-Influenza (Umkhuhlane)",
+      "idade": "Ukususela kwiinyanga ezi-6 (ngonyaka; iidosi ezimbini kugonyo lokuqala ukuya kwiminyaka esi-8)",
+      "para_que_serve": "Ikhusela kwiingxaki nokulaliswa esibhedlele okubangelwa ziintsholongwane ze-Influenza."
+    },
+    {
+      "vacina": "I-Yellow Fever",
+      "idade": "Iinyanga ezi-9 (idosi yoku-1) e iminyaka emi-4 (isikhuthazi)",
+      "para_que_serve": "Ikhusela kwisifo se-yellow fever."
+    },
+    {
+      "vacina": "I-Tríplice Viral (SCR)",
+      "idade": "Iinyanga ezili-12 (idosi yoku-1)",
+      "para_que_serve": "Ikhusela kwimasisi (measles), uqilikwana (mumps) kunye nerubella."
+    },
+    {
+      "vacina": "I-Tetra Viral (SCRV)",
+      "idade": "Iinyanga ezili-15 (idosi enye, emva kwedosi yoku-1 ye-Tríplice Viral)",
+      "para_que_serve": "Ikhusela kwimasisi, uqilikwana, irubella kunye ne-varicella (irhashalala)."
+    },
+    {
+      "vacina": "I-DTP (Isitofu Esiphindwe Kathathu Sebhaktiriya)",
+      "idade": "Iinyanga ezili-15 (isikhuthazi soku-1) e iminyaka emi-4 (isikhuthazi sesi-2)",
+      "para_que_serve": "Iqinisa ukhuseleko kwi-diphtheria, i-tetanus kunye ne-pertussis."
+    },
+    {
+      "vacina": "I-Hepatitis A",
+      "idade": "Iinyanga ezili-15 (idosi enye)",
+      "para_que_serve": "Ikhusela kwisifo sesibindi i-hepatitis A."
+    },
+    {
+      "vacina": "I-Varicella",
+      "idade": "Iminyaka emi-4 (idosi yesikhuthazi)",
+      "para_que_serve": "Iqinisa ukhuseleko kwi-varicella (irhashalala)."
+    },
+    {
+      "vacina": "I-HPV quadrivalent",
+      "idade": "Iminyaka eli-9 ukuya kweli-14 (idosi enye)",
+      "para_que_serve": "Ikhusela kusulelo olungapheliyo olubangelwa yi-Human Papillomavirus (HPV)."
+    },
+    {
+      "vacina": "I-Meningococcal ACWY",
+      "idade": "Iminyaka eli-11 ukuya kweli-14 (idosi enye okanye isikhuthazi)",
+      "para_que_serve": "Ikhusela kwimeningitis nosulelo olubangelwa yi-Neisseria meningitidis yodidi A, C, W no-Y."
+    }
+  ]
+}
