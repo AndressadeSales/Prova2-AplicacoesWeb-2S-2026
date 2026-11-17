@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="xh">
+<head>
+  <meta charset="UTF-8">
+  <title>Ikhadi Ledijithali Lokugonya Abantwana</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://www.gov.br/saude/pt-br/campanhas-da-saude/2024/poliomielite/imagens/ze-gotinha/ze-gotinha-completo-positivo.png">
+</head>
+<body>
+
+  <!-- Intloko enomfanekiso ka-Zé Gotinha, Isihloko kunye neFlegi yoMzantsi Afrika -->
+  <header class="cabecalho">
+    <img
+      src="https://www.gov.br/saude/pt-br/campanhas-da-saude/2024/poliomielite/imagens/ze-gotinha/ze-gotinha-completo-positivo.png"
+      alt="U-Zé Gotinha - Umfanekiso Wokugonya we-SUS"
+      class="ze-gotinha"
+    >
+
+    <div class="titulo-area">
+      <h1>IKHADI LEDIJITHALI LOKUGONYA ABANTWANA</h1>
+      <p>Inkqubo Yezempilo Ehlangeneyo (SUS) - UMzantsi Afrika</p>
+    </div>
+
+    <img
+      src="https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Africa.svg"
+      alt="Iflegi yoMzantsi Afrika"
+      class="bandeira"
+    >
+  </header>
+
+  <main class="conteudo">
+
+    <!-- Icandelo 1: Iinkcukacha Zomntwana -->
+    <form id="form-crianca"></form>
+    <section class="caixa">
+      <h2>Iinkcukacha Zomntwana Nabazali/Abagcini</h2>
+      <p class="aviso">* Iindawo ezinyanzelekileyo</p>
+  
+        <div class="campo">
+          <label for="nomeCrianca">Igama Lomntwana *</label>
+          <input type="text" id="nomeCrianca" placeholder="Faka igama elipheleleyo">
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="dataNascimento">Umhla Wokuzalwa *</label>
+            <input type="date" id="dataNascimento">
+          </div>
+
+          <div class="campo">
+            <label for="idadeAnos">Iminyaka</label>
+            <input type="text" id="idadeAnos" readonly placeholder="Ngokuzenzekelayo">
+          </div>
+
+          <div class="campo">
+            <label for="idadeMeses">Iinyanga</label>
+            <input type="text" id="idadeMeses" readonly placeholder="Ngokuzenzekelayo">
+          </div>
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="cpfCrianca">Inombolo Yesazisi (SA ID) *</label>
+            <input type="text" id="cpfCrianca" maxlength="13" placeholder="0000000000000 (Amanani ali-13)">
+          </div>
+
+          <div class="campo">
+            <label for="numeroSus">Inombolo Yekhadi le-SUS *</label>
+            <input type="text" id="numeroSus" maxlength="15" placeholder="Faka amanani ali-15 e-SUS">
+          </div>
+        </div>
+
+        <div class="linha-dupla">
+          <div class="campo">
+            <label for="responsavel1">Umgcini Osemthethweni 1 (Unyanzelekile) *</label>
+            <input type="text" id="responsavel1" placeholder="Igama lomgcini wokuqala">
+          </div>
+
+          <div class="campo">
+            <label for="responsavel2">Umgcini Osemthethweni 2 (Ukuzikhethela)</label>
+            <input type="text" id="responsavel2" placeholder="Igama lomgcini wesibini">
+          </div>
+        </div>
+
+    </section>
+
+    <!-- Icandelo 2: Amakhadi Eengoma -->
+    <section class="caixa">
+      <h2>Ikhalenda Yokugonya ye-SUS</h2>
+      <p>Cofa kwikhadi ukuze ubone ukuba isitofu sisebenzela ntoni kwaye ubhalise ukugonywa.</p>
+
+      <div id="lista-vacinas" class="grade-vacinas"></div>
+      
+    </section>
+
+    <section class="caixa">
+      <h2>Ikhadi lam elingaxhunywanga kwi-intanethi</h2>
+      <p>Emva kokugcwalisa iinkcukacha zomntwana nezitofu zakhe, cofa apha ukuze ugcine ikhadi lakho kwifayile yasekhaya.</p>
+      <button type="submit" class="botao-salvar">Gcina Ikhadi</button>
+      <p id="mensagem-cadastro" class="mensagem-sucesso"></p>
+    </section>
+  </main>
+
+  <!-- Ifestile (Modal) evulekayo xa ucofa ikhadi -->
+  <div id="janela-detalhes" class="fundo-janela escondido">
+    <div class="conteudo-janela">
+      <h3 id="janela-titulo">Igama Lesitofu</h3>
+      <p><strong>Idosi:</strong> <span id="janela-dose"></span></p>
+      <p><strong>Ixesha lokugonya:</strong> <span id="janela-idade"></span></p>
+      <p><strong>Sisebenzela ntoni:</strong> <span id="janela-descricao"></span></p>
+
+      <div class="area-check">
+        <input type="checkbox" id="check-tomada">
+        <label for="check-tomada">Isitofu sele sifakiwe</label>
+      </div>
+
+      <!-- Iindawo ezongezelelweyo ezivelayo xa kukhethwe "Isitofu sele sifakiwe" -->
+      <div id="campos-aplicacao" class="campos-extras escondido">
+        <div class="campo">
+          <label for="dataAplicacao">Umhla Wokugonya *</label>
+          <input type="date" id="dataAplicacao">
+        </div>
+
+        <div class="campo">
+          <label for="numeroLote">Inombolo Yebhetshi (Lot) *</label>
+          <input type="text" id="numeroLote" placeholder="Umz.: AB1234">
+        </div>
+
+        <div class="campo">
+          <label for="unidadeAplicadora">Iziko Lezempilo *</label>
+          <input type="text" id="unidadeAplicadora" placeholder="Umz.: Ikliniki yaseKhayelitsha">
+        </div>
+
+        <div class="campo">
+          <label for="responsavelAplicacao">Igama Lomongi/Ugqirha *</label>
+          <input type="text" id="responsavelAplicacao" placeholder="Igama lengcali yezempilo">
+        </div>
+      </div>
+
+      <div class="botoes-janela">
+        <button type="button" id="btn-confirmar" class="botao-salvar">Qinisekisa</button>
+        <button type="button" id="btn-fechar" class="botao-fechar">Vala</button>
+      </div>
+    </div>
+  </div>
+
+ </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
